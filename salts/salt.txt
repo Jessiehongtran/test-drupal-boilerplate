@@ -1,1 +1,4 @@
-default salt - this should be overridden and committed during initial site setup
+[0;43;30m WARNING: [0m [0;33;49m'.docksal' base domain and local DNS resolver are deprecated[0m
+           Please update your Docksal and project configuration
+           See https://docs.docksal.io/stack/configuration-variables/#docksal-dns-disabled
+bc0-bIiO5BXjIqX5czQ3eh3Ez_dSHOm8WAUxetligCrIMN7gk8jYYteqSyDUDrwQRMMB3hmhtA
