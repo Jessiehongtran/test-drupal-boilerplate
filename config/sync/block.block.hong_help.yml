@@ -1,0 +1,22 @@
+uuid: a45d8895-75a7-45eb-95f6-60e130c77193
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - hong
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: hong_help
+theme: hong
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

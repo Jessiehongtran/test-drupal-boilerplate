@@ -1,0 +1,22 @@
+uuid: 25011ee7-d978-4c1d-9640-2eef6f242b95
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - hong
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: hong_content
+theme: hong
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

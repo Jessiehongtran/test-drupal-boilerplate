@@ -1,0 +1,20 @@
+uuid: 7ca85615-ec84-4a4a-be44-bd1ae69bed5d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - hong
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: hong_primary_admin_actions
+theme: hong
+region: header
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }
