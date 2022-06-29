@@ -1,0 +1,13 @@
+name: hong
+type: theme
+description: hong custom theme
+core: 8.x
+libraries:
+    - hong/global_styling
+base theme: stable
+regions:
+    header: Header
+    content: Content
+    footer: Footer
+
+core_version_requirement: ^8 || ^9
